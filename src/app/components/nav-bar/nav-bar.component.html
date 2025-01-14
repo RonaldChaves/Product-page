@@ -1,7 +1,7 @@
-<header class="flex flex-row justify-evenly items-center bg-violet-400 fixed shadow-md w-full h-24 ">
+<header  [ngClass]="{ 'sticky': isSticky }" class="flex flex-row justify-evenly items-center bg-violet-400  shadow-md w-full h-24 max-md:flex-row-reverse ">
     <div class="p-8 md:hidden">
         <label class="burger " for="burger" (click)="collapse()">
-            <input type="checkbox" id="burger">
+            <input type="checkbox" id="burger" (click)="collapse()">
             <span></span>
             <span></span>
             <span></span>
@@ -20,20 +20,20 @@
     </div>
     <div class="w-max max-md:hidden">
         <ul class="flex flex-row justify-between items-center w-full h-24">
-            <li class="px-4 h-24 flex items-center hover:border-b-[1px] hover:border-black">
-                Início
+            <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white ">
+                <a href="#" class="active:text-bold">Início</a>
             </li>
-            <li class="px-4 h-24 flex items-center hover:border-b-[1px] hover:border-black">
-                Bolos
+            <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
+                <a href="#">Bolos</a>
             </li>
-            <li class="px-4 h-24 flex items-center hover:border-b-[1px] hover:border-black">
-                Doces
+            <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
+                <a href="#">Doces</a>
             </li>
-            <li class="px-4 h-24 flex items-center hover:border-b-[1px] hover:border-black">
-                Brownies
+            <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
+                <a href="#">Brownies</a>
             </li>
-            <li class="px-4 h-24 flex items-center hover:border-b-[1px] hover:border-black">
-                Roscas
+            <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
+                <a href="#">Roscas</a>
             </li>
         </ul>
     </div>
@@ -70,22 +70,33 @@
     </div>
 
 </header>
-<div *ngIf="show" class="md:hidden h-svh w-2/5 p-16  bg-gray-900 transition-transform">
-    <ul class="w-full h-full flex flex-col justify-center ">
-        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1rem]">
-            Início
+<div [class.translate-x-full]="!show" [class.translate-x-0]="show"
+    class="md:hidden h-svh w-2/5 p-16 bg-gray-900 transition-transform duration-300 fixed right-0 top-24">
+    <ul class="w-full h-full flex flex-col justify-around items-center">
+        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
+            <a href="#">
+                Início
+            </a>
         </li>
-        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1rem] w-full">
-            Bolos
+        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] text-center w-full">
+            <a href="#">
+                Bolos
+            </a>
         </li>
-        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1]">
-            Doces
+        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
+            <a href="#">
+                Doces
+            </a>
         </li>
-        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1rem]">
-            Brownies
+        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
+            <a href="#">
+                Brownies
+            </a>
         </li>
-        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1rem]">
-            Roscas
+        <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
+            <a href="#">
+                Roscas
+            </a>
         </li>
     </ul>
 </div>

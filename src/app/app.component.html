@@ -1,11 +1,14 @@
-<div class="nav-bar">
-  <app-nav-bar></app-nav-bar>
-</div>
+<main class="flex flex-col ">
+  <section class="">
+    <app-nav-bar></app-nav-bar>
+  </section>
 
-<div class="content">
-  <router-outlet />
-</div>
+  <section class="content">
+    <app-home></app-home>
+    <!-- <router-outlet /> -->
+  </section>
 
-<div class="footer">
-  <app-footer></app-footer>
-</div>
+  <section class="footer">
+    <app-footer></app-footer>
+  </section>
+</main>
