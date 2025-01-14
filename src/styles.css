@@ -6,8 +6,37 @@
 @tailwind utilities;
 
 /* Deafult settings of CSS */
-*, body {
+*,
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+p,
+span,
+li {
+    font-family: "Hind Madurai", serif;
+    font-weight: 400;
+    font-style: normal;
 }
