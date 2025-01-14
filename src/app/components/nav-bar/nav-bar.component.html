@@ -1,4 +1,5 @@
-<header  [ngClass]="{ 'sticky': isSticky }" class="flex flex-row justify-evenly items-center bg-violet-400  shadow-md w-full h-24 max-md:flex-row-reverse ">
+<header [ngClass]="{ 'sticky': isSticky }"
+    class="flex flex-row justify-evenly items-center bg-violet-400  shadow-md w-full h-24 max-md:flex-row-reverse ">
     <div class="p-8 md:hidden">
         <label class="burger " for="burger" (click)="collapse()">
             <input type="checkbox" id="burger" (click)="collapse()">
@@ -21,19 +22,19 @@
     <div class="w-max max-md:hidden">
         <ul class="flex flex-row justify-between items-center w-full h-24">
             <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white ">
-                <a href="#" class="active:text-bold">Início</a>
+                <a href="#inicio" class="active:text-bold">Início</a>
             </li>
             <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
-                <a href="#">Bolos</a>
+                <a href="#bolos">Bolos</a>
             </li>
             <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
-                <a href="#">Doces</a>
+                <a href="#doces">Doces</a>
             </li>
             <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
-                <a href="#">Brownies</a>
+                <a href="#brownies">Brownies</a>
             </li>
             <li class="px-4 h-24 flex items-center hover:border-b-[2px] hover:border-black hover:text-white">
-                <a href="#">Roscas</a>
+                <a href="#roscas">Roscas</a>
             </li>
         </ul>
     </div>
@@ -74,27 +75,27 @@
     class="md:hidden h-svh w-2/5 p-16 bg-gray-900 transition-transform duration-300 fixed right-0 top-24">
     <ul class="w-full h-full flex flex-col justify-around items-center">
         <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
-            <a href="#">
+            <a href="#inicio">
                 Início
             </a>
         </li>
         <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] text-center w-full">
-            <a href="#">
+            <a href="#bolos">
                 Bolos
             </a>
         </li>
         <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
-            <a href="#">
+            <a href="#doces">
                 Doces
             </a>
         </li>
         <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
-            <a href="#">
+            <a href="#brownies">
                 Brownies
             </a>
         </li>
         <li class="p-4 border-violet-400 text-white hover:border-b-[3px] text-[1.5rem] w-full text-center">
-            <a href="#">
+            <a href="#roscas">
                 Roscas
             </a>
         </li>

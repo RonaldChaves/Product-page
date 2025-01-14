@@ -5,7 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { CakeComponent } from './home/cake/cake.component';
-import { AppModule } from '../app.module';
+import { CandyComponent } from './home/candy/candy.component';
 
 
 
@@ -15,6 +15,7 @@ import { AppModule } from '../app.module';
     FooterComponent,
     HomeComponent,
     CakeComponent,
+    CandyComponent,
   ],
   imports: [
     CommonModule,
@@ -22,7 +23,8 @@ import { AppModule } from '../app.module';
     NavBarComponent,
     FooterComponent,
     HomeComponent,
-    CakeComponent
+    CakeComponent,
+    CandyComponent
   ]
 })
 export class ComponentsModule { }
