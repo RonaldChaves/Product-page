@@ -6,6 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { CakeComponent } from './home/cake/cake.component';
 import { CandyComponent } from './home/candy/candy.component';
+import { CupcakeComponent } from './home/cupcake/cupcake.component';
 
 
 
@@ -16,6 +17,7 @@ import { CandyComponent } from './home/candy/candy.component';
     HomeComponent,
     CakeComponent,
     CandyComponent,
+    CupcakeComponent,
   ],
   imports: [
     CommonModule,
@@ -24,7 +26,8 @@ import { CandyComponent } from './home/candy/candy.component';
     FooterComponent,
     HomeComponent,
     CakeComponent,
-    CandyComponent
+    CandyComponent,
+    CupcakeComponent
   ]
 })
 export class ComponentsModule { }
