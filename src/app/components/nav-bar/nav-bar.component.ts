@@ -21,7 +21,6 @@ export class NavBarComponent implements OnInit {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    this.isSticky = scrollTop > 100; // Altere '100' para o valor desejado
+    this.isSticky = scrollTop > 0; // Altere '100' para o valor desejado
   }
-
 }

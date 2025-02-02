@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-brownie',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './brownie.component.css'
 })
 export class BrownieComponent {
-
+ 
+  @Input()
+  id: string = '';
+  @Input()
+  type: string = '';
 }
