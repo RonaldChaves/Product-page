@@ -17,9 +17,11 @@ export class NavBarComponent implements OnInit {
     this.show = !this.show;
   }
 
+  //function to add 'fixed' class at navbar
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     this.isSticky = scrollTop > 100; // Altere '100' para o valor desejado
   }
+
 }
