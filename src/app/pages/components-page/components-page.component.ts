@@ -11,10 +11,12 @@ export class ComponentsPageComponent implements OnInit {
 
   idData: string = '';
   typeData: string = '';
+  stockData: string = '';
   textData: string = '';
   titleData: string = '';
   subtiltleData: string = '';
   imgData: string = '';
+  descriptionData: string = '';
 
   private type: string | null = '';
 
@@ -32,9 +34,11 @@ export class ComponentsPageComponent implements OnInit {
 
     this.idData = result.id;
     this.typeData = result.type;
+    this.stockData = result.stock;
     this.textData = result.text;
     this.titleData = result.title;
     this.subtiltleData = result.subtitle;
+    this.descriptionData = result.description;
     this.imgData = result.img;
   }
 
