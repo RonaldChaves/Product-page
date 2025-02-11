@@ -23,13 +23,13 @@ export class HomeComponent implements OnInit {
   @Input()
   img: string = '';
 
-  data: Bakery = [{id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-  {id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-  {id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-  {id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-  {id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-  {id: '',type: '', text: '',title: '',subtitle: '',img: ''},
-]
+  data: Bakery = [{ id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  { id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  { id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  { id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  { id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  { id: '', type: '', text: '', title: '', subtitle: '', img: '' },
+  ]
 
   ngOnInit() {
     this.setValues();

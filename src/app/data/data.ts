@@ -7,8 +7,9 @@ export const dataBakery = [
         'title': 'BOLOS CONFEITADOS',
         'subtitle': 'Bolos lindos do jeito que sua fome pedir ou até mesmo os seus OLHOS!!',
         'img': '../../../assets/img/bolo-morango.png',
-        'description': 'Bolo totalmente confeitado do sabor que você desejar e do sabor que quiser. Com camadas molhadinhas de bolo macio, camadas de frutas frescas, e cobertura deliciosa com um equilibrio entre doce e viciante!!'
-
+        'description': 'Bolo totalmente confeitado do sabor que você desejar e do sabor que quiser. Com camadas molhadinhas de bolo macio, camadas de frutas frescas, e cobertura deliciosa com um equilibrio entre doce e viciante!!',
+        'size': ['P - 4 Fatias', 'M - 6 Fatias', 'G - 8 Fatias', 'XG - 12 Fatias'],
+        'price': ['$14,90', '$22,90', '$29,90', '$42,90']
     },
     {
         'id': '2',
@@ -18,7 +19,9 @@ export const dataBakery = [
         'title': 'DOCINHOS DE FESTA',
         'subtitle': 'Doces maravilhosos e deliciosas para alegrar suas festas!!',
         'img': '../../../assets/img/docinhos-festa.png',
-        'description': 'Caixa com vários unidades (escolha a quantidade) de docinhos deliosos, com frutas, coberturas ou até mesmo recheios que preenchem toda a delicia!!'
+        'description': 'Caixa com vários unidades (escolha a quantidade) de docinhos deliosos, com frutas, coberturas ou até mesmo recheios que preenchem toda a delicia!!',
+        'size': ['50 un', '70 un', '100 un'],
+        'price': ['$29,90', '$39,90', '$59,90']
     },
     {
         'id': '3',
@@ -28,7 +31,9 @@ export const dataBakery = [
         'title': 'CUPCAKE',
         'subtitle': 'Os melhores bolinhos da região Leste de Minas, vai deixar passar essa??',
         'img': '../../../assets/img/cupcake-chocolate.png',
-        'description': 'Pequenos bolinhos macios e molhadinhos com recheios a sua escolha e cobertura farta de doçura e cores (se preferir). Perfeito para fazer uma "boquinha" ou presentear alguem também. Na dúvida leve sempre mais de um HEHE!!'
+        'description': 'Pequenos bolinhos macios e molhadinhos com recheios a sua escolha e cobertura farta de doçura e cores (se preferir). Perfeito para fazer uma "boquinha" ou presentear alguem também. Na dúvida leve sempre mais de um HEHE!!',
+        'size': ['Unico - 100g'],
+        'price': ['$5,90']
     },
     {
         'id': '4',
@@ -38,7 +43,9 @@ export const dataBakery = [
         'title': 'BOLOS DE ANIVERSÁRIO',
         'subtitle': 'Os mais confeitados, os mais gostosos e cabe dentro do bolso!!',
         'img': '../../../assets/img/bolos-aniversario.png',
-        'description': 'Todas as qualidades de um bolo, macio, deliciosos, saboroso mas ainda mais perfeito, mas porque?? Pois é seu aniversário - ou de alguem que você ama - certo?! Então aproveite e encomende o seu lindo bolo de aniversário, com ainda maiscobertura, personalizado do seu jeito e com a sua cara! '
+        'description': 'Todas as qualidades de um bolo, macio, deliciosos, saboroso mas ainda mais perfeito, mas porque?? Pois é seu aniversário - ou de alguem que você ama - certo?! Então aproveite e encomende o seu lindo bolo de aniversário, com ainda maiscobertura, personalizado do seu jeito e com a sua cara! ',
+        'size': ['P - 1 Bolo', 'M - 2 Bolos', 'G - 3 Bolos'],
+        'price': ['$29,90', '$42,90', '$59,90']
     },
     {
         'id': '5',
@@ -48,7 +55,9 @@ export const dataBakery = [
         'title': 'BROWNIES',
         'subtitle': 'Brownies fofinhos e deliciosos, crocante por fora e macio por dentro 😍!',
         'img': '../../../assets/img/brownies-1.png',
-        'description': 'Crocantes por fora, macios por dentro! Cheios de chocolate ou do sabor que desejar. O brownie é a escolha perfeita para matar sua fome naquela hora rápida ou até mesmo um lanche da tarde... Mas não serve só você ein, serve toda a familia se precisar! '
+        'description': 'Crocantes por fora, macios por dentro! Cheios de chocolate ou do sabor que desejar. O brownie é a escolha perfeita para matar sua fome naquela hora rápida ou até mesmo um lanche da tarde... Mas não serve só você ein, serve toda a familia se precisar! ',
+        'size': ['1 un', '2 un', '5 un', '8 un', '10 un'],
+        'price': ['$2,90', '$5,49', '$13,90', '$18,49', '$24,90']
     },
     {
         'id': '6',
@@ -58,6 +67,8 @@ export const dataBakery = [
         'title': 'ROSCAS (DONUTS)',
         'subtitle': 'Menores, mais versáteis, únicas ou em multidão... rosquinhas sempre bom!!',
         'img': '../../../assets/img/rosca-doce.png',
-        'description': 'Lembrou de policial, lembrou de Donuts. Mas donuts é nos Estados Unidos aqui é BRASIL!! Nossas rosquinhas são as melhores para qualquer momento... Não são farelentas ou secas, são simplesmente crocantes e macias, como pode?? Bem, aqui pode. Então garanta a sua com as melhores coberturas. '
+        'description': 'Lembrou de policial, lembrou de Donuts. Mas donuts é nos Estados Unidos aqui é BRASIL!! Nossas rosquinhas são as melhores para qualquer momento... Não são farelentas ou secas, são simplesmente crocantes e macias, como pode?? Bem, aqui pode. Então garanta a sua com as melhores coberturas. ',
+        'size': ['1 un', '2 un', '5 un', '8 un', '10 un'],
+        'price': ['$2,90', '$5,49', '$13,90', '$18,49', '$24,90']  
     }
 ]
